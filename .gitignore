@@ -1,0 +1,27 @@
+# Secrets
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env/
+
+# Test / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated runtime data
+outputs/*
+!outputs/.gitkeep
+data/sample_weather.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
